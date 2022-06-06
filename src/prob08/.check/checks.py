@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..\\..\\..', 'tools'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../..', 'tools'))
 from mylibs import chk_template
 from random import randint, shuffle
 
