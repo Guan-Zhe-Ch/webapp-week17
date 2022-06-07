@@ -24,6 +24,20 @@ function gt10(v) {
 
 
 // 1. 你所寫的程式碼只能在這個段落。
+function even(v){
+    arr = []
+    for (let v of dat)
+     if (filter(Number(v)>2))
+         arr.push(v);
+    return arr;
+}
+function odd(v){
+    arr = []
+    for (let v of dat)
+     if (filter(Number(v)>3))
+         arr.push(v);
+    return arr;
+}
 // 2. 請依照題目說明完成欠缺的程式碼。
 
 
